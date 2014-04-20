@@ -22,6 +22,7 @@
 		481157B5190429C3008FD03B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48115794190429C3008FD03B /* UIKit.framework */; };
 		481157BD190429C3008FD03B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 481157BB190429C3008FD03B /* InfoPlist.strings */; };
 		481157BF190429C3008FD03B /* TestUploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 481157BE190429C3008FD03B /* TestUploadTests.m */; };
+		481157CA19042DB8008FD03B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481157C919042DB8008FD03B /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		481157BA190429C3008FD03B /* TestUploadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestUploadTests-Info.plist"; sourceTree = "<group>"; };
 		481157BC190429C3008FD03B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		481157BE190429C3008FD03B /* TestUploadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUploadTests.m; sourceTree = "<group>"; };
+		481157C819042DB8008FD03B /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		481157C919042DB8008FD03B /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				481157A5190429C3008FD03B /* Main_iPad.storyboard */,
 				481157A8190429C3008FD03B /* ViewController.h */,
 				481157A9190429C3008FD03B /* ViewController.m */,
+				481157C819042DB8008FD03B /* MyViewController.h */,
+				481157C919042DB8008FD03B /* MyViewController.m */,
 				481157AB190429C3008FD03B /* Images.xcassets */,
 				48115797190429C3008FD03B /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			files = (
 				481157AA190429C3008FD03B /* ViewController.m in Sources */,
 				481157A1190429C3008FD03B /* AppDelegate.m in Sources */,
+				481157CA19042DB8008FD03B /* MyViewController.m in Sources */,
 				4811579D190429C3008FD03B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +476,7 @@
 				481157C4190429C3008FD03B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		481157C5190429C3008FD03B /* Build configuration list for PBXNativeTarget "TestUploadTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				481157C7190429C3008FD03B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
